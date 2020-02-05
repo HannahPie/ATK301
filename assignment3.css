@@ -1,0 +1,48 @@
+
+
+.subtitle {
+  color: #ffffff;
+}
+
+#subheaders {
+  color:#569BF0;
+}
+
+
+header {
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
+a {
+ color: #ff0000;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+#CVAcontact {
+  background-color: #00ff00;
+}
+
+.emphasize {
+  background-color: #ffff00;
+}

@@ -1,0 +1,24 @@
+/*THIS IS MY NEW STYLESHEET */
+/*
+p {
+ color: #ffffff;
+ background-color: #80CBB3;
+}*/
+
+h1 {
+  background-color:#80CBB3;
+}
+
+#specialid {
+  color:#00ff00;
+  background-color: #000000;
+}
+
+.specialp {
+  color:#00FF00;
+  background-color: #ffffff;
+}
+
+a:link {
+ color: #00ff00;
+}
