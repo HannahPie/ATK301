@@ -1,0 +1,139 @@
+body {
+background-color: #FBD336;
+font-family: Impact;
+background-image: url(Lakeith.jpg);
+background-repeat: no-repeat;
+width: 600px;
+
+}
+
+h1{
+  font-size: 120px;
+  text-align: center;
+  border: 0px solid red;
+  margin: 0;
+  padding: 0;
+  line-height:120px;
+}
+
+main {
+  text-align: justify;
+  margin-top: 500px;
+  border-bottom: 5px solid #874199;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+footer{
+  text-align: center;
+}
+
+a{
+  color: #E34CEB;
+  text-decoration: none;
+  text-align: center;
+}
+
+.afilm{
+  font-size: 15px;
+  letter-spacing: 10px;
+}
+
+.bootsriley{
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.boots {
+  color: #874199;
+  text-align: left;
+  border-bottom: 5px solid #874199;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.sorry{
+  color: #D5392E;
+}
+
+.tobother{
+  color: #E34CEB;
+}
+
+.you{
+  color: #D5392E;
+}
+
+.starring {
+  color: #874199;
+  font-size: 25px;
+}
+
+.lakeith {
+  color: #D5392E;
+  font-size: 30px;
+}
+
+.tessa {
+  color: #E34CEB;
+  font-size: 30px;
+}
+
+.jermaine{
+  color: #D5392E;
+  font-size: 30px;
+}
+
+.omari {
+  color:#E34CEB;
+  font-size: 30px;
+}
+
+.terry{
+  color: #D5392E;
+  font-size: 30px;
+}
+
+.patton {
+  color: #E34CEB;
+  font-size: 30px;
+}
+
+.david{
+  color:#D5392E;
+  font-size: 30px;
+}
+
+.with {
+  color: #874199;
+  font-size: 25px;
+}
+
+.danny{
+  color: #E34CEB;
+  font-size: 30px;
+}
+
+.steven {
+  color: #D5392E;
+  font-size: 30px;
+}
+
+.and{
+  color:#874199;
+  font-size: 25px;
+}
+
+.armie{
+  color: #E34CEB;
+  font-size: 30px;
+}
+
+.website{
+  color: #E34CEB;
+  font-size: 15px;
+}
+
+.ratedr{
+  text-align: center;
+}
