@@ -1,0 +1,46 @@
+h1{
+  color: white;
+}
+
+header{
+  background-color: #BFBAED;
+}
+
+a{
+  color: green;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+h2{
+  color: blue;
+}
+
+.quote{
+  color: orange;
+}
+
+h3{
+  background-color: yellow;
+}
+
+.redtext{
+  color: red;
+}
+
+h4{
+  color: yellow;
+  background-color: green;
+}
+
+.greenbg{
+  background-color: #BAEDBF;
+}
+
+h5{
+  color: purple;
+}
