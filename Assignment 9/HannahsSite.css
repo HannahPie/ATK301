@@ -1,0 +1,27 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+}
+
+nav {
+  display: inline-block;
+  grid-row: span 1;
+}
+
+main {
+  grid-column: span 12;
+}
