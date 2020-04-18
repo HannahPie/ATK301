@@ -4,12 +4,11 @@ body {
   font-size: 25px;
 }
 
+
 #wrapper {
-  margin: 24px auto;
-  width: 1200px;
-  border: 1px solid black;
-  padding: 24px;
-  background-color: #ffffff;
+  span: 12;
+  border: 0px solid black;
+  background-color: white;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
@@ -22,15 +21,26 @@ header {
 nav {
   grid-column: span 9;
   grid-row: span 2;
+  text-shadow: 2px 2px 5px #6EACAF;/* x, y, blur, color */
 }
 
 nav li a{
-  color: #000000;
+  color: #006A6A;
   padding: 10px;
   padding-top: 40px;
   display: inline-block;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.5s;
+  font-family: all-round-gothic, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+}
+
+nav li a:hover{
+  color: #6EACAF;
 }
 
 ul li {
@@ -46,7 +56,24 @@ main {
 }
 
 main img {
-  margin: 27px;
+  margin: 57px;
   border: 0px solid red;
   padding: 0px;
+  border-radius: 24px;
+}
+
+footer {
+  text-align: center;
+  grid-column: span 12;
+}
+
+footer a {
+  color: #006A6A;
+  text-decoration: none;
+  font-size: 40px;
+  text-align: center;
+}
+
+footer a:hover{
+  color: #6EACAF;
 }
