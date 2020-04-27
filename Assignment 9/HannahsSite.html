@@ -2,7 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="jquery-mosaic-master/css/jquery.mosaic.min copy.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	 <script type="text/javascript" src="jquery-mosaic-master/js/jquery.mosaic.min copy.js"></script>
+
 	<title>Hannah's Website</title>
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.typekit.net/oyr0uxx.css">
 	<link href="HannahsSite.css" rel="stylesheet" type="text/css">
@@ -23,15 +30,22 @@
 		</nav>
 
 		<main>
-			<img src="TEDX Button Picture.png" alt="TED X Normal">
-			<img src="Vino Button Picture.png" alt="Vino Piemontese">
-			<img src="Amore Button Picture.png" alt="Ciclo Dell Amore"> </br>
-			<img src="Gamma Phi Button Picture.png" alt="Gamma Phi Circus">
-			<img src="1984 Button Picture.png" alt="1984">
-			<img src="Stereo Age Button Picture.png" alt="Stereo Age: A New Age"> </br>
-			<img src="Soc + Anthro Button Picture.png" alt="Sociology + Anthropology">
-			<img src="Food For Thought Button Picture.png" alt="Food For Thought">
-			<img src="MoMA Button Picture.png" alt="Stereo Age: A New Age"> </br>
+			<div id="myMosaic">
+    <img src="jquery-mosaic-master/images/TEDX Button Picture.png" alt="TED X Normal"/>
+    <img src="jquery-mosaic-master/images/Vino Button Picture.png" alt="Vino Piemontese"/>
+    <img src="jquery-mosaic-master/images/Amore Button Picture.png" alt="Ciclo Dell Amore"/>
+    <img src="jquery-mosaic-master/images/Gamma Phi Button Picture.png" alt="Gamma Phi Circus"/>
+		<img src="jquery-mosaic-master/images/1984 Button Picture.png" alt="1984">
+		<img src="jquery-mosaic-master/images/Stereo Age Button Picture.png" alt="Stereo Age: A New Age">
+		<img src="jquery-mosaic-master/images/Soc + Anthro Button Picture.png" alt="Sociology + Anthropology">
+		<img src="jquery-mosaic-master/images/Food For Thought Button Picture.png" alt="Food For Thought">
+		<img src="jquery-mosaic-master/images/MoMA Button Picture.png" alt="Stereo Age: A New Age">
+
+		<script>
+    $('#myMosaic').Mosaic();
+</script>
+</div>
+
 
 					<video width="640" height="360" autoplay controls loop preload="auto" >
   				<source src="Motion Midterm.mp4" type="video/mp4" />
