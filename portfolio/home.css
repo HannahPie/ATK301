@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: Corbel;
+  font-family: 'Muli', sans-serif;
   font-size: 25px;
 }
 
@@ -63,6 +63,7 @@ main img {
   margin: 57px;
   border: 0px solid red;
   padding: 0px;
+  max-width: 100%;
 }
 
 footer {
@@ -124,3 +125,13 @@ footer a:hover{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/*---Responsive---*/
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
