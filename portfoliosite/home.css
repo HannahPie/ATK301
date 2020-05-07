@@ -1,0 +1,137 @@
+body {
+  background-color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: 25px;
+}
+
+
+#wrapper {
+  span: 12;
+  border: 0px solid black;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 3;
+  display: inline-block;
+  border: 0px solid black;
+  padding: 0;
+}
+
+nav {
+  grid-column: span 8;
+  grid-row: span 2;
+  border: 0px solid black;
+  margin-left: -45px;
+}
+
+nav li a{
+  color: #006A6A;
+  padding: 10px;
+  padding-top: 40px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.5s;
+
+font-weight: 700;
+
+font-style: normal;
+}
+
+nav li a:hover{
+  color: #6EACAF;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+main {
+  grid-column: span 12;
+  text-align: center;
+  margin-left: 35px;
+}
+
+main img {
+  margin: 57px;
+  border: 0px solid red;
+  padding: 0px;
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+  grid-column: span 12;
+}
+
+footer a {
+  color: #006A6A;
+  text-decoration: none;
+  font-size: 40px;
+  text-align: center;
+}
+
+footer a:hover{
+  color: #6EACAF;
+}
+
+
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 57px;
+  float: left;
+  text-align: center;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #6EACAF;
+  margin: 57px;
+  grid-column: span 12;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*---Responsive---*/
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
